@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1style_memoria.css">
+    <link rel="shortcut icon" href="./icon_hidro.png" type="image/png">
+    <script src="1script.js" defer></script>
+    <title>Energia Hidrelétrica - Jogo da memória</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+
+            <h1 id="titulo-memoria">Jogo da Memória - Projeto Hidrelétrica</h1>
+
+            <div class="container">
+
+                <select id="dimensao">
+
+                    <option value="2">2 x 2</option>
+                    <option value="4">4 x 4</option>
+
+                </select>
+
+                <button onclick="jogar()">Começar</button>
+                <p class="texto">Pontuação: <span class="texto" id="pontos">0</span></p>
+
+            </div>  
+            <hr>
+            <br>
+
+        </header>
+
+        <main>
+
+            <div class="areaJogo" id="areaJogo"></div>
+
+        </main>
+
+    </main>
+
+    <footer>
+
+        <div>
+
+            <h3 id="titulo-footer1">Projeto Hidrelétrica </h3>
+
+            <p class="p-footer">O Projeto Hidrelétrica é um projeto escolar para a feira de ciências do SesiSenai, conhecida como Amostra STEAM. O projeto foi realizado pelo Erick Shuck, Giovanni Burgo, João F. Ventura, João V. Galiotto, Lucas Pereira e Nícollas Lopes, sendo instruido pelos professores Carlos Roberto, Wendel Souza e Eduardo Michereff.</p>
+
+            <p class="p-footer">Ao lado, é possível observar as redes sociais da instituição do Senai Tijucas, além do GitHub do projeto, ao qual é possível visualizar código utilizado na construção do site em que você está lendo.</p>
+
+            <a href="./index.html">Retornar à Home</a>
+
+        </div>
+
+        <h3 id="titulo-footer2">Redes Sociais</h3>
+
+        <figure id="redes-sociais">
+
+            <a href="https://github.com/FranVen02"><img id="img-github" src="./0img-github.png"></a>
+            <a href="https://twitter.com/senaisc"><img id="img-twitter" src="./0img-x.png"></a>
+            <a href="https://www.instagram.com/senai.sc/"><img id="img-insta" src="./0img-insta.png"></a>
+            <a href="https://www.facebook.com/senaisc/?locale=pt_BR"><img id="img-face" src="./0img-face.png"></a>
+
+        </figure>
+
+    </footer>
+
+</body>
+
+</html>

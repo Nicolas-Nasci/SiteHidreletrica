@@ -1,0 +1,319 @@
+body {
+    background: linear-gradient(to top, #313131, #111111);
+    width: 100%;
+    height: 1200px;
+    font: normal 16px arial;
+    font-style: none;
+    margin: auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-x:hidden;
+    text-align:center;
+}h1 {
+    font: bold 40px verdana;
+    margin-top: 100px;
+    margin-left: 25px;
+    width:400px;
+}h2 {
+    font: normal 22px arial;
+    color: rgb(105, 100, 100);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width:400px;
+}button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 4px;
+}hr {
+    width:325px;
+}select{
+    margin-left:25px;
+}footer {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 200px;
+    background-color: #1C1C1C;
+}footer div {
+    height: 200px;
+    width: 600px;
+    float: left;
+}footer div a {
+    color:white;
+    font:bold 16px arial;
+    margin-left:20px;
+    float:left;
+
+
+/*     */
+/* IDs */
+/*     */
+
+}#titulo-memoria{
+    width:96vw;   
+}#img-twitter {
+    position: absolute;
+    top: 58px;
+    left: 1448px;
+    height: 100px;
+}#img-insta {
+    position: absolute;
+    top: 58px;
+    left: 1370px;
+    height: 100px;
+}#img-face {
+    position: absolute;
+    top: 58px;
+    left: 1270px;
+    height: 100px;
+}#img-github {
+    position: absolute;
+    top: 72px;
+    left: 1190px;
+    height: 70px;
+}#titulo-footer1 {
+    margin-left: 20px;
+    font: bold 18px arial;
+    color: white;
+    text-align:left;
+}#titulo-footer2 {
+    position: absolute;
+    right: 30px;
+    font: bold 18px arial;
+    color: white;
+    float: right;
+
+/*         */
+/* Classes */
+/*         */
+
+}.texto{
+    margin-left:25px;
+}.areaJogo{
+    margin-left:40vw;
+}.p-footer {
+    font: normal 13px arial;
+    margin-left: 20px;
+    text-align:left;
+
+
+
+
+/*               */
+/* Media Queries */
+/*               */
+
+
+/* Para dispositivos com largura de tela até 360px (móveis ultrapassados) */
+}@media (max-width: 360px) {
+
+    /*        */
+    /* Gerais */
+    /*        */
+
+    body {
+        height:2050px;
+        width:100vw;
+    }h1, h2 {
+        width:fit-content
+    }footer {
+        width:100vw;
+        position:absolute;
+        top:1700px;
+        height:500px;
+    }footer div {
+        width: 100vw;
+
+    /*     */
+    /* IDs */
+    /*     */
+
+    }#titulo-footer1 {
+        font-size:0.8rem;
+    }#titulo-footer2 {
+        text-align:center;
+        font-size:0.8rem;
+        margin-right:0;
+    }#redes-sociais {
+        text-align:center;
+        margin-top:80px;
+    }#img-github, #img-twitter, #img-insta, #img-face {
+        position: static;
+        height: 15vw;
+        margin: 10px;
+
+    /*         */
+    /* Classes */
+    /*         */
+
+    }.p-footer {
+        width:fit-content;
+        font-size:0.7rem;
+    }.areaJogo{
+        margin-left:1vw;
+    }
+
+/* Para dispositivos com largura de tela até 600px (móveis) */
+}@media (min-width:361px) and (max-width: 600px) {
+
+    /*        */
+    /* Gerais */
+    /*        */
+
+    body {
+        height:1700px;
+        width:100vw;
+    }footer {
+        width:100vw;
+        margin-top:450px;
+        height:500px;
+    }footer div {
+        width: 100vw;
+    }h1, h2 {
+        width:fit-content;
+
+    /*     */
+    /* IDs */
+    /*     */
+
+
+    }#titulo-footer1 {
+        font-size:1rem;
+    }#titulo-footer2 {
+        text-align:center;
+        font-size:1rem;
+        margin-right:0;
+    }#redes-sociais {
+        text-align:center;
+        margin-top:40px;
+    }#img-github, #img-twitter, #img-insta, #img-face {
+        position: static;
+        height: 15vw;
+        margin: 10px;
+
+    /*         */
+    /* Classes */
+    /*         */
+
+    }.p-footer {
+        width:fit-content;
+        font-size:0.7rem;
+    }.areaJogo{
+        margin-left:24vw;
+    }
+
+/* Para dispositivos com largura de tela entre 601px e 1024px (tablets) */
+}@media (min-width: 601px) and (max-width: 1024px) {
+        
+    /*        */
+    /* Gerais */
+    /*        */
+
+    body {
+        height:2000px;
+        width:100vw;
+    }footer {
+        width:100vw;
+        margin-top:550px;
+        height:500px;
+    }footer div {
+        width: 100vw;
+
+    /*     */
+    /* IDs */
+    /*     */
+
+    }#titulo-footer1 {
+        font-size:1rem;
+    }#titulo-footer2 {
+        text-align:center;
+        font-size:1rem;
+        margin-right:0;
+    }#redes-sociais {
+        text-align:center;
+        margin-top:40px;
+    }#img-github, #img-twitter, #img-insta, #img-face {
+        position: static;
+        height: 15vw;
+        margin: 10px;
+
+    /*         */
+    /* Classes */
+    /*         */
+
+    }.p-footer {
+        width:fit-content;
+        font-size:0.7rem;
+    }.areaJogo {
+        margin-left:32.5vw;
+    }
+
+
+/* Para dispositivos com largura de tela acima de 1024px */
+}@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /*        */
+    /* Gerais */
+    /*        */
+
+    body {
+        height:1500px;
+    }footer {
+        height: 300px;
+        width:100vw;
+        margin-top:400px;
+    }footer div {
+        width: 50vw;
+
+    /*     */
+    /* IDs */
+    /*     */
+
+    }#img-github, #img-twitter, #img-insta, #img-face {
+        height: 70px;
+        position:static;
+        float:right;
+        margin-top:30px;
+        margin-top:40px;
+
+    /* Classes */
+    /* Classes */
+    /* Classes */
+
+    }.areaJogo {
+        margin-left:35vw;
+    }
+
+/* Para dispositivos com largura de tela acima de 1200px */
+}@media (min-width: 1201px){
+
+    /*        */
+    /* Gerais */
+    /*        */
+
+    body {
+        height:1500px;
+    }footer {
+        height: 300px;
+        width:100vw;
+        margin-top:400px;
+    }footer div {
+        width: 50vw;
+
+    /*     */
+    /* IDs */
+    /*     */
+
+    }#img-github, #img-twitter, #img-insta, #img-face {
+        height: 70px;
+        position:static;
+        float:right;
+        margin-top:30px;
+        margin-top:40px;
+    }
+}
